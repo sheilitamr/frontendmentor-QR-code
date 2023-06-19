@@ -23,5 +23,31 @@ a {
 
 body {
   margin: 0;
-  background-image: url(../assets/images/sleep-cat.jpeg);
+  font-family: 'Outfit', sans-serif;
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 320px;
+  height: 497px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 16px;
+}
+.card__image {
+  border-radius: 10px;
+}
+.card__title {
+  color: #1f314f;
+  text-align: center;
+  font-size: 22;
+  font-weight: 700;
+}
+.card__text {
+  text-align: center;
+  color: #7d889e;
+  font-size: 15;
+  letter-spacing: 0.19;
 }
